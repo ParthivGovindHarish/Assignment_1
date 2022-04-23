@@ -6,9 +6,8 @@ int amount_given,a,b,bill_amount;
 scanf("%d%d",&amount_given,&bill_amount);
 a=amount_given/bill_amount;
 b=amount_given%bill_amount;
-printf("&d is the Quotient",a);
+printf("%d is the Quotient",a);
 printf("%d is the Remainder",b);
-
 
     return 0;
 }
